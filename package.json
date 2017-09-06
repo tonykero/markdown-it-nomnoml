@@ -1,0 +1,27 @@
+{
+  "name": "markdown-it-nomnoml",
+  "version": "0.0.1",
+  "description": "a markdown-it plugin for nomnoml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonykero/markdown-it-nomnoml.git"
+  },
+  "keywords": [
+    "markdown-it",
+    "markdown-it-nomnoml"
+  ],
+  "author": "tony_kero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tonykero/markdown-it-nomnoml/issues"
+  },
+  "homepage": "https://github.com/tonykero/markdown-it-nomnoml#readme",
+  "dependencies": {
+    "markdown-it-fence": "0.0.2",
+    "nomnoml": "^0.1.1"
+  }
+}
