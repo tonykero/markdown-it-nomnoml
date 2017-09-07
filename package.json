@@ -1,10 +1,10 @@
 {
   "name": "markdown-it-nomnoml",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a markdown-it plugin for nomnoml",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node examples/basic.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/tonykero/markdown-it-nomnoml#readme",
   "dependencies": {
+    "d3-node": "^1.1.1",
+    "markdown-it": "^8.4.0",
     "markdown-it-fence": "0.0.2",
     "nomnoml": "^0.1.1"
   }
