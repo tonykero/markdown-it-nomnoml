@@ -4,7 +4,17 @@ const nomnoml   = require('nomnoml');
 const render = function(options) {
     return function(tokens, idx, _options, env) {
         const token = tokens[idx];
-        return nomnoml.renderSvg(token.content);
+        let html_svg;
+        try {
+            html_svg = nomnoml.renderSvg(token.content);
+        }
+        catch(err) {
+            html_svg = '<pre><code class="language-nomnoml">\n' +
+                        token.content + '\n' +
+                        '</code></pre>';
+        }
+        
+        return html_svg;
     }
 }
 

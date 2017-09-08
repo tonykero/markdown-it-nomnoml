@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-nomnoml",
-  "version": "0.0.2-rc1",
+  "version": "0.0.3",
   "description": "a markdown-it plugin for nomnoml",
   "main": "index.js",
   "scripts": {
